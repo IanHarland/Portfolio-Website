@@ -1,0 +1,168 @@
+/* Universal Styles */
+
+html {
+    font-family: monospace;
+    font-size: 20px;
+    color: #222;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin: 2rem;
+    letter-spacing: .05rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    line-height: 1.2;
+}
+
+/* Header */
+
+header {
+    padding: 1rem;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+header .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0 1rem;
+    display: flex;
+}
+
+header nav ul li{
+    margin-right: 1rem;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 4rem;
+    padding: 1rem;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#about p {
+    max-width: 500px;
+    min-width: 300px;
+}
+
+#about img {
+    margin: 2rem 0;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects .container {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#projects .container .box {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#projects .container .box h3 {
+    font-size: 1.3rem;
+}
+
+#projects .container .box ul {
+    list-style: square;
+    margin: 1rem;
+}
+
+#projects .container .box li {
+    padding: .5rem;
+    min-width: 150px;
+}
+
+#projects .container .box li:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+/* Skills */
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#skills .box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bigfish {
+    max-width: 100%;
+    height: auto;
+    min-width: 350px;
+}
+
+#skills .lang img {
+    max-width: 100px;
+    height: auto;
+    margin: 1rem;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}

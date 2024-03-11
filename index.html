@@ -6,18 +6,20 @@
     <title>Ian Harland Bio</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/styles.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Ian Harland</h1>
-        <h3>Software Developer</h3>
+        <div class="header">
+            <h1>Ian Harland</h1>
+            <h3>Software Developer</h3>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,13 +28,13 @@
             <h2>About Me</h1>
             <div class="container">
                 <div class="box">
-                    <p>Hi, I'm Ian. I'm a computer programmer. I make fun games and programs for people to use to augment their lives.</p>
+                    <p>Hi, I'm Ian. I'm a computer programmer. I make fun games, websites, and programs for people to use and augment their lives.</p>
                     <br>
                     <p>My programs are fun and pragmatic. They are easy to use and are geared towards musicians and music lovers, like myself!</p>
                     <br>
-                    <p>That's right, I've been a professional musician since I was fifteen years old. What instrument(s), you ask? The easy answer is: I play <a href="#">vibraphone</a>, drums, and bass professionally.</p>
+                    <p>That's right, I've been a professional musician since I was fifteen years old. What instrument(s), you ask? The easy answer is: I play <a href="https://en.wikipedia.org/wiki/Vibraphone" target="_blank">vibraphone</a>, drums, and electric bass professionally.</p>
                 </div>
-                <img class="box" src="#" />
+                <img class="box" src="./resources/images/ian paris shirt.jpeg" alt="headshot of Ian"/>
             </div>
         </section>
         <hr>
@@ -40,19 +42,19 @@
             <h2>Projects</h2>
             <div class="container">
                 <div class="box cs">
-                    <h3>Python</h3>
+                    <h3 class="category">Python</h3>
                     <ul>
-                        <li>Terminal Game - The Kraken</li>
-                        <li>San Diego Music Venue Finder</li>
-                        <li>CPU Simulator</li>
+                        <li id="kraken">Terminal Game - The Kraken</li>
+                        <li id="venue">San Diego Music Venue Finder</li>
+                        <li id="cpu">CPU Simulator</li>
                     </ul>
                 </div>
                 <div class="box full">
-                    <h3>Front End</h3>
+                    <h3 class="category">Front End</h3>
                     <ul>
-                        <li>Tea Cozy Site</li>
-                        <li>Harland Home Studios Site</li>
-                        <li>Javascript Horoscope</li>
+                        <li id="tea"><a href="../Tea Cozy/index.html" target="_blank">Tea Cozy Webite</a></li>
+                        <li id="studios"><a href="../Harland_Home_Studios/index.html" target="_blank">Harland Home Studios Website</a></li>
+                        <li id="horoscope">Javascript Horoscope Generator</li>
                     </ul>
                 </div>
             </div>
@@ -61,24 +63,23 @@
         <section id="skills">
             <h2>Skills</h2>
             <div class="container">
-                <div class="box">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">
+                <div class="lang box">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png">
+                    <img src="https://static-00.iconduck.com/assets.00/sql-database-generic-icon-1521x2048-d0vdpxpg.png">
+                    <img src="https://i.pinimg.com/originals/a3/3f/3f/a33f3f15417a2afd5441e9325fa9a546.png">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
                 </div>
                 <div class="box">
-                    <img src="">
+                    <img id="bigfish" src="./resources/images/IanBigFish.jpg">
                 </div>
             </div>
         </section>
+        <hr>
         <footer>
-            <h5>Copyright 2024  San Diego, CA</h5>
+            <h5>&copy; Ian Harland 2024. All rights reserved</h5>
         </footer>
     </main>
     
