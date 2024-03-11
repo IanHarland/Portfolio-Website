@@ -111,6 +111,15 @@ main {
     align-items: center;
 }
 
+#projects h2 {
+    margin-bottom: .5rem;
+}
+
+h5 {
+    margin-bottom: 1rem;
+    font-size: .7rem;
+}
+
 #projects .container {
     margin: 1rem auto;
     display: flex;
@@ -136,7 +145,9 @@ main {
 
 #projects .container .box li {
     padding: .5rem;
+    margin-top: .3rem;
     min-width: 150px;
+    background-color: #eee;
 }
 
 #projects .container .box li:hover {
@@ -145,15 +156,18 @@ main {
     color: white;
 }
 
+#tea:hover, #studios:hover {
+    background-color: #eee;
+    color: blue;
+}
+
 #projects .container .box li a:hover {
-    background-color: gray;
-    color: white;
+    color: blue;
 }
 
 #projects .container .box li#tea:hover, #projects .container .box li#studios:hover {
     cursor: default;
-    background-color: white;
-    color: black;
+    background-color: #eee;
 }
 
 /* Skills */
