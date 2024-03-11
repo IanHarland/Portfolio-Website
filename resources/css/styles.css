@@ -21,7 +21,7 @@ h3 {
 }
 
 p, li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Merriweather";
 }
 
 p {
@@ -129,6 +129,12 @@ main {
     cursor: pointer;
     background-color: gray;
     color: white;
+}
+
+#projects .container .box li#tea:hover, #projects .container .box li#studios:hover {
+    cursor: default;
+    background-color: white;
+    color: black;
 }
 /* Skills */
 
